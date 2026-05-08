@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev
 export default defineConfig({
-  base: '/quoa/', // 👈 أضف هذا السطر تحديداً (اسم المستودع بين slash)
+  base: './', // 👈 أضف هذا السطر تحديداً (اسم المستودع بين slash)
   plugins: [react()],
   optimizeDeps: {
     include: ['@react-pdf/renderer', 'pako'],
